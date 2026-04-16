@@ -1,51 +1,88 @@
-# Student Performance Analysis
+# 📊 Student Performance Analysis
 
-## Project Overview
+## 🔍 Project Overview
 
-This project analyzes the relationship between study hours and student exam scores.
-The goal is to explore whether students who study more hours achieve better academic performance.
+This project analyzes how study time affects student exam performance.
+The objective is to identify patterns and quantify the relationship between study hours and scores using data analysis and visualization techniques.
 
-## Dataset
+---
 
-The dataset used in this project contains two variables:
+## 📁 Dataset
 
-* **Study_Hours** – Number of hours spent studying
-* **Score** – Exam score achieved by the student
+The dataset consists of:
 
-The dataset is a small sample dataset created for learning data analysis.
+* **Study_Hours** – Number of hours a student studies
+* **Score** – Exam score obtained
 
-## Tools and Technologies
+This is a simulated dataset created for learning purposes.
 
-The project was built using the following tools:
+---
+
+## ⚙️ Tools & Technologies
 
 * Python
 * Pandas
 * Matplotlib
+* (Optional upgrade: Scikit-learn)
 
-## Steps in the Analysis
+---
 
-1. Import required libraries.
-2. Create a dataset containing study hours and exam scores.
-3. Convert the dataset into a Pandas DataFrame.
-4. Perform basic data analysis.
-5. Visualize the relationship between study hours and exam scores using a scatter plot.
+## 📈 Methodology
 
-## Visualization
+1. Data creation and preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Correlation analysis
+4. Data visualization (scatter plot)
+5. (Optional) Linear Regression modeling
 
-A scatter plot was used to visualize the relationship between study hours and exam scores.
+---
+## 📊 Visualization
 
-## Key Insight
+![Study Hours vs Score](graph.png)
 
-The analysis shows a positive relationship between study hours and exam scores.
-Students who spend more time studying tend to achieve higher marks.
+## 📌 Key Insights
 
-## How to Run the Project
+* Strong **positive correlation** between study hours and scores
+* Students who study more tend to perform better
+* Trend suggests a near-linear relationship
 
-1. Download the Python file from this repository.
-2. Open the file using Python or a notebook environment such as Google Colab.
-3. Run the script to generate the analysis and visualization.
+---
 
-## Author
+## 🤖 (Optional Upgrade) Model Performance
 
-Anantha Mukesh Paandithevan,Data Science student at Multimedia University (MMU), Cyberjaya.
+A simple Linear Regression model was applied:
 
+* Model: Linear Regression
+* Result: Increasing study hours leads to higher predicted scores
+* (Add accuracy or R² if you implement it)
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository
+2. Install required libraries:
+
+   ```
+   pip install pandas matplotlib
+   ```
+3. Run the Python script:
+
+   ```
+   python student_analysis.py
+   ```
+
+---
+
+## 📌 Future Improvements
+
+* Use real-world dataset
+* Add more variables (sleep, attendance, etc.)
+* Apply advanced ML models
+
+---
+
+## 👨‍💻 Author
+
+**Anantha Mukesh Paandithevan**
+Data Science Student @ Multimedia University (MMU)
